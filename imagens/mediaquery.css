@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+/*Todas as demais midias*/
+
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+
+- Até o 768px já esta feito, agora é criar as outras telas
+*/
+
+/*TELAS GRANDES*/
+@media screen and (min-width:992px){
+
+    section{
+        width: 800px;
+        height: 400px;
+    }
+    section > div#imagem{
+        float: left;
+        width: 50%;
+        height:100%;
+    }
+
+}
